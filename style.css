@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background-image:url(./images/backround1.jpg);
+}
+
+
+main {
+    height: 30rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.leftcard {
+    
+}
+
+.middlecard {
+   
+}
+
+.rightcard {
+    
+}
+
+.score {
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+}
+
+.card {
+    width: 45%;
+    height: 70%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.close {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/card_back.png);
+    width: 65%;
+    height: 80%;
+    z-index: 1;
+    position: relative;
+    top: -24.6rem;
+    left: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.middlewrite {
+    width: 35rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gamer1, .gamer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+
+}
+/* .gamer-image{
+    margin-top: 2rem;
+} */
+
+.middlewrite button {
+    margin-top: 1rem;
+    background-color: none;
+    border: none;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px grey;
+    background-color: rgb(173, 170, 170);
+    color: black;
+    font-weight: 700;
+}
+.middlewrite button:hover {
+    box-shadow: 2px 2px 10px grey;
+    font-size: 2.1rem;
+}
+
+.choice {
+    width: 50%;
+    height: 7rem;
+    margin: -4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.win{
+    margin: 1.5rem 0rem;
+    color: greenyellow;
+}
+.gamer-image{
+    width: 300px;
+}
+
+.gamer1score, .gamer2score{
+    margin-top: 2rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #FEFEF2;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 1rem;
+    color: black;
+}
